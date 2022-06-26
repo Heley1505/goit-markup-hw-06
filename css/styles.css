@@ -888,6 +888,7 @@ body {
 }
 
 .modal-comment {
+    cursor: pointer;
     width: 100%;
     height: 120px;
     border: 1px solid #21212133;
@@ -930,6 +931,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .modal-check:checked + .check-text .custom-view{
