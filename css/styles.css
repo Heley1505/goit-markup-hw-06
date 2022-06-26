@@ -910,6 +910,10 @@ body {
     color: rgba(117, 117, 117, 0.5);
 }
 
+
+ .check-field{
+    display: flex;
+}
 .check-text{
     font-size: 14px;
     line-height: 1.7;
@@ -944,6 +948,11 @@ body {
 }
 .check-field{
     margin-bottom: 30px;
+    justify-content: center;
+}
+.privacy-text{
+    display: flex;
+    align-items: center;
 }
 .input-button{
     justify-content: center;
@@ -977,6 +986,9 @@ body {
 .input-button:hover {
     background-color: var(--bottom-focuse-color);
 
+}
+.modal-paragraph{
+    display: inline-block;
 }
 .signup-form-footer{
     display: flex;
@@ -1052,6 +1064,16 @@ body {
     margin-left: 10px;
 }
     
+.signup-text{
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--main-theme-color);
+    letter-spacing: 0.03em;
+}
 
 /* .bot{
     width: 100px;
