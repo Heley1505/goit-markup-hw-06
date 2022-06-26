@@ -1003,6 +1003,11 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-right: 12px;
+    outline: none;
+}
+.sign-upinput:focus,
+.sign-upinput:hover{
+    border-color: var(--accent-color);
 }
 
 .signup-footer-button{
@@ -1033,9 +1038,10 @@ body {
     background-color: var(--bottom-focuse-color);
 }
 
-.signup-footer-icon{
+.signup-footer-button.signup-footer-icon{
     margin: 12px;
-    fill: var(--main-theme-color);}
+}
+    
 
 
 .signup-footer-button
