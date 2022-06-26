@@ -1004,10 +1004,20 @@ body {
     color: rgba(255, 255, 255, 0.6);
     margin-right: 12px;
     outline: none;
+    transition-property: border-color;
+     transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sign-upinput:focus,
 .sign-upinput:hover{
     border-color: var(--accent-color);
+}
+.sign-upinput::placeholder{
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .signup-footer-button{
