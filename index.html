@@ -415,7 +415,7 @@
           </address>
         </div>
         <div class="footer-social-list">
-          <h3 class="social-title">присоединяйтесь</h3>
+          <span class="apply">присоединяйтесь</span>
           <ul class="footer-soc-links list">
             <li class="soc-item">
               <a
@@ -458,7 +458,7 @@
         <div class="signup-form-footer">
           <form class="footer-sign-field">
             <label class="signup-lable"
-              ><span class="signup-text">Подпишитесь на рассылку</span>
+              ><span class="apply">Подпишитесь на рассылку</span>
               <input
                 type="email"
                 name="input-mail"
@@ -521,23 +521,20 @@
             ></textarea>
           </div>
           <div class="check-field">
-            <input
-              type="checkbox"
-              name="privacy"
-              value="on"
-              id="user-check"
-              class="modal-check visually-hidden"
-            />
-            <label for="user-check" class="check-text"
-              ><span
+            <label class="check-text">
+              <input
+                type="checkbox"
+                name="check"
+                value="true"
+                class="modal-check visually-hidden"
+              /><span class="custom-view"
                 ><svg class="icon-check" width="11" height="8">
                   <use href="./images/icons.svg#icon-line"></use>
                 </svg>
               </span>
-              <p>
-                Соглашаюсь с рассылкой и принимаю
-                <a href="" class="modal-link">Условия договора</a>
-              </p>
+              <span class="policy">
+                Соглашаюсь с рассылкой и принимаю <a href="" class="modal-link">Условия договора</a>
+              </span>
             </label>
           </div>
           <button type="submit" class="input-button">Отправить</button>

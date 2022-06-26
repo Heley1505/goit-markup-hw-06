@@ -910,10 +910,6 @@ body {
     color: rgba(117, 117, 117, 0.5);
 }
 
-
- .check-field{
-    display: flex;
-}
 .check-text{
     font-size: 14px;
     line-height: 1.7;
@@ -921,39 +917,36 @@ body {
     color: var(--primary-text-color);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.check-text span{
+.check-text .custom-view{
     width: 16px;
     height: 15px;
     border: 2px solid var(--title-text-color);
     border-radius: 2px;
     margin-right: 7px;
+    margin-left: -12px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.icon-check{
-    fill: transparent
-}
 
-.modal-check:checked+.check-text span{
+.modal-check:checked + .check-text .custom-view{
     background-color:var(--accent-color);
     border: none;
 }
 
 .modal-link{
-    text-decoration: underline;
+    border-bottom: 1px solid var(--accent-color);
     color: var(--accent-color);
 }
+
 .check-field{
     margin-bottom: 30px;
     justify-content: center;
-}
-.privacy-text{
-    display: flex;
-    align-items: center;
-}
+    }
+
 .input-button{
     justify-content: center;
     cursor: pointer;
@@ -987,9 +980,6 @@ body {
     background-color: var(--bottom-focuse-color);
 
 }
-.modal-paragraph{
-    display: inline-block;
-}
 .signup-form-footer{
     display: flex;
     width: 570;
@@ -1017,7 +1007,7 @@ body {
     margin-right: 12px;
     outline: none;
     transition-property: border-color;
-     transition-duration: 250ms;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sign-upinput:focus,
@@ -1064,7 +1054,7 @@ body {
     margin-left: 10px;
 }
     
-.signup-text{
+.apply{
     display: block;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -1074,6 +1064,7 @@ body {
     color: var(--main-theme-color);
     letter-spacing: 0.03em;
 }
+
 
 /* .bot{
     width: 100px;
