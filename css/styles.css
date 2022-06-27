@@ -75,7 +75,7 @@ body {
     padding-bottom: 94px;
 }
 
-/* Header */
+/* ___________________________________Header _____________________________*/
 .page-header {
     border-bottom: 1px solid #ECECEC;
     background-color: var(--main-theme-color);
@@ -192,7 +192,7 @@ body {
 }
 
 /* Main content */
-/* Hero */
+/*  _________________________________Hero______________________________ */
 .hero {
     background-color: var(--footer-bg-color);
     padding-top: 200px;
@@ -323,7 +323,7 @@ body {
     text-transform: uppercase;
 }
 
-/* Team */
+/*__________________________________ Team _________________________________________*/
 .team {
     background-color: var(--section-color)
 }
@@ -416,7 +416,7 @@ body {
     fill: var(--main-theme-color);
 }
 
-/* Clients */
+/*______________________________________ Clients_________________________ */
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -466,7 +466,7 @@ body {
     fill: var(--accent-color);
 }
 
-/* Footer */
+/*________________________________ Footer______________________________ */
 footer {
     background-color: var(--footer-bg-color);
     padding-top: 60px;
@@ -586,7 +586,7 @@ address {
 
 
 
-/* Portfolio */
+/* ________________________________Portfolio___________________________ */
 body {
     background-color: var(----main-background-color);
     color: var(--primary-text-color);
@@ -715,7 +715,7 @@ body {
 
 }
 
-/* Buttons*/
+/*__________________________________Buttons____________________________*/
 .main-botton {
     cursor: pointer;
     color: var(--main-theme-color);
@@ -784,6 +784,7 @@ body {
     overflow: hidden;
 }
 
+/* _____________________________Modal_______________________________ */
 .backdrop {
     position: fixed;
     top: 0;
@@ -926,23 +927,27 @@ body {
     justify-content: center;
 }
 
-.check-text .custom-view{
+.custom-view{
     width: 16px;
     height: 15px;
-    border: 2px solid var(--title-text-color);
+    border: 2px solid #000000;
     border-radius: 2px;
     margin-right: 7px;
-    margin-left: -12px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
 
-.modal-check:checked + .check-text .custom-view{
+.modal-check:checked + .custom-view{
+    background-color: var(--accent-color);
+border: transparent;}
+    
+
+    /* .modal-check:checked + .check-text .custom-view{
     background-color:var(--accent-color);
     border: none;
-}
+} */
 
 .modal-link{
     border-bottom: 1px solid var(--accent-color);
@@ -1072,44 +1077,3 @@ body {
     letter-spacing: 0.03em;
 }
 
-
-/* .bot{
-    width: 100px;
-    height: 40px;
-    padding: 10px 10px;
-    display: block;
-    text-align: center;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-    overflow: hidden;
-    
-}
-.bot::before{
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: orange;
-    margin-right: 5px;
-    transition: transform 250ms cubic-bezier((0.4, 0, 0.2, 1));
-    background-image: url('../images/icons.svg#icon-linkedin');    
-     background-size: contain;}
-.bot:hover::before{
-    transform: translateY(-30px);
-}
-.bot::after{
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: BLUE;
-    position: absolute;
-    top: 50%;
-    left: 35px;
-    transform: translateY(calc(-50% + 35px));
-    transition: transform 1200ms cubic-bezier((0.4, 0, 0.2, 1));
-    background-image: url('../images/icons.svg#icon-twit');
-background-size: contain;}
-.bot:hover::after {
-    transform: translateY(-50%);
-} */
