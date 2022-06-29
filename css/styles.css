@@ -389,8 +389,7 @@ body {
     fill: var(--main-theme-color);
     border-radius: 50%;
     cursor: pointer;
-    fill: var(--main-theme-color);
-    transition-property: background-color, fill;
+    transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
