@@ -74,6 +74,11 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.card-set{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
 /* ___________________________________Header _____________________________*/
 .page-header {
@@ -282,7 +287,7 @@ body {
 
 }
 
-.servisce-pic {
+.service-pic {
     position: relative;
 }
 
